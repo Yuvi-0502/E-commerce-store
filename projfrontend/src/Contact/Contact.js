@@ -22,7 +22,7 @@ const handleChange = name => event => {
 const sendMssge=(event)=>{
     event.preventDefault();
         setValues({...values,error:false});
-        //console.log(name+" "+subject+" "+email+" "+message);
+        console.log(name+" "+subject+" "+email+" "+message);
         contactus({name, subject, email, message})
         .then(data => {
             if(data.error){

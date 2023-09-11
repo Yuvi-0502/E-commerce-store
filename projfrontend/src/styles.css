@@ -4,7 +4,7 @@ jumbotron,
 }
 
 body {
-  background: #fff;
+  background:red;
 }
 
 .map {
@@ -27,12 +27,12 @@ body {
 }
 
 .btn-dark-blue{
-  background-color: #233DFF;
+  background-color: yellow;
   color: #fff;
 }
 
 .btn-primary{
-  background-color: #233DFF;
+  background-color:orange;
   color: #fff;
 }
 
